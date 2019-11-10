@@ -25,10 +25,10 @@ All files are taken from the Udemy course, "Deep Learning with Python and Keras"
     4/ Rolling Window:  Conducting regression many times with subsamples of original full sample along with rolling time window.
 
 ### Improving Performance
-    1/ Learning Curve:
-    2/ Batch Normalization:
-    3/ Dropout:
-    4/ Data Augmentation:
-    5/ Transfer Learning (Continuous Learning - Fine Tuning):
-    6/ Hyperparameter Searches:
-    7/ Embeddings:
+    1/ Learning Curve:      A plot of model learning performance over experience or time. Looking at the learning curve helps us determine to have more data or better model.
+    2/ Batch Normalization: A technique to improve the speed, performance, stability of networks, where it standardize output of layer, enables higher learning rate, reduces overfitting.
+    3/ Dropout:             A regularization that reduces overfitting by dropping some nodes during training the model.
+    4/ Data Augmentation:   A technique that increases the diversity of data available for training models by cropping, padding, flipping.
+    5/ Transfer Learning:   A technique that stores knowledge gained while training 1 problem and applying it to a dfferent one but related. For example knowledge of car detection could apply when trying to recognize trucks. Also known as Continuous Learning - Fine Tuning.
+    6/ Hyperparameter Searches: An algorithm that finds the best combination of hyperparameters which gives the best score. There are 4 typical algorithms: Babysitting, Grid Search, Random Search, Bayesian Optimization.
+    7/ Embeddings:          A mapping of discrete, categorical, variable to a vector of numbers. Word embedding is the typical example when applying this technique to language modeling.
